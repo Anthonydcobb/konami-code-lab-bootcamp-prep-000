@@ -26,6 +26,7 @@ function init(codes) {
        console.log(codePress)
      } else {
        index = 0
+       codePress = []
        console.log('wrong key')
      }
 
