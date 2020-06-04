@@ -11,6 +11,26 @@ const codes = [
   "a"
 ];
 
-function init() {
-  // your code here
-}
+function init(codes) {
+  let codePress = []
+  document.body.addEventListener('keydown', (event) => {
+  //  if (codePress === codes) {
+  //    alert('YOU DID IT')
+  //  }
+  console.log(event.key)
+   for (let i = 0; i < codes; i++) {
+     if (event.key === codes[i]) {
+       codePress.push(event.key)
+       console.log(`right key ${event.key}`)
+     } else {
+       codePress = [];
+       console.log('wrong key')
+     }
+   }
+
+ })
+ }
+
+
+
+init(codes)
