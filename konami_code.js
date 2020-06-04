@@ -24,7 +24,7 @@ function init(codes) {
        console.log(`right key ${event.key}`)
        index ++;
      } else {
-       codePress = [];
+       index = 0
        console.log('wrong key')
      }
 
