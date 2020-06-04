@@ -23,13 +23,15 @@ function init(codes) {
        codePress.push(event.key)
        index ++;
        console.log(codePress)
-     } else {
+     } if {
+       if (codes === codePress) {
+         alert("YOU DID IT")
+       }
+     }
+     else {
        index = 0
        codePress = []
        console.log('wrong key')
-     }
-     if (codes === codePress) {
-       alert("YOU DID IT")
      }
  })
  }
