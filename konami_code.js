@@ -26,7 +26,7 @@ function init(codes) {
        codePress = [];
        console.log('wrong key')
      }
-  
+
  })
  }
 
