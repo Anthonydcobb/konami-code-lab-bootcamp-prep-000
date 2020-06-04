@@ -22,6 +22,7 @@ function init(codes) {
      if (event.key === codes[index]) {
        codePress.push(event.key)
        console.log(`right key ${event.key}`)
+       index ++;
      } else {
        codePress = [];
        console.log('wrong key')
