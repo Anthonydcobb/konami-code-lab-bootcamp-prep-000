@@ -19,6 +19,9 @@ function init(codes) {
   //    alert('YOU DID IT')
   //  }
   console.log(event.key)
+    if (codes === codePress) {
+      alert("YOU DID IT")
+    }
 
      if (event.key === codes[index]) {
        codePress.push(event.key)
