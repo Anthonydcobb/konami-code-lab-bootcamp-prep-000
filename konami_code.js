@@ -19,10 +19,11 @@ function init(codes) {
   //    alert('YOU DID IT')
   //  }
   console.log(event.key)
+
      if (event.key === codes[index]) {
        codePress.push(event.key)
-       console.log(`right key ${event.key}`)
        index ++;
+       console.log(codePress)
      } else {
        index = 0
        console.log('wrong key')
