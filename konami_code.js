@@ -18,7 +18,7 @@ function init(codes) {
   //    alert('YOU DID IT')
   //  }
   console.log(event.key)
-   
+
      if (event.key === codes[i]) {
        codePress.push(event.key)
        console.log(`right key ${event.key}`)
