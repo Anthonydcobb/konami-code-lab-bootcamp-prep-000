@@ -18,7 +18,7 @@ function init(codes) {
   //    alert('YOU DID IT')
   //  }
   console.log(event.key)
-   for (let i = 0; i < codes; i++) {
+   
      if (event.key === codes[i]) {
        codePress.push(event.key)
        console.log(`right key ${event.key}`)
@@ -26,7 +26,7 @@ function init(codes) {
        codePress = [];
        console.log('wrong key')
      }
-   }
+   
 
  })
  }
