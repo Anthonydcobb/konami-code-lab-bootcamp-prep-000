@@ -24,9 +24,6 @@ function init(codes) {
        index ++;
        console.log(codePress)
      }
-       if (codes === codePress) {
-         alert("YOU DID IT")
-     }
      else {
        index = 0
        codePress = []
