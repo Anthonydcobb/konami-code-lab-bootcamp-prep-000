@@ -20,7 +20,7 @@ function init(codes) {
        index ++;
        console.log(codePress)
        if (index === codes.length) {
-         alert('YOU DID IT')
+         alert('Hurray!')
        }
      }
      else {
