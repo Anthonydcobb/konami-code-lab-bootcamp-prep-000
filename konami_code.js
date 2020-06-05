@@ -19,6 +19,9 @@ function init(codes) {
        codePress.push(event.key)
        index ++;
        console.log(codePress)
+       if (index === codes.length - 1) {
+         alert('YOU DID IT')
+       }
      }
      else {
        index = 0
